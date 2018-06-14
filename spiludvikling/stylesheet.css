@@ -1,0 +1,1458 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0em;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color: #939393;
+    color: #e6e6e6;
+    background-image: url(images/bgimg4.jpg);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    color: #e6e6e6;
+}
+a:hover {
+    transition-duration: 0.1s;
+    color: #d8ccff;
+    text-shadow: 1px 0px 0px -1px rgba(0, 0, 0, 0.32);
+}
+input {
+    font-family: 'Poppins', sans-serif;
+}
+textarea {
+    font-family: 'Poppins', sans-serif;
+}
+.colorscheme1 {
+    background-color: rgba(183, 183, 183, 0);
+}
+.colorscheme2 {
+    margin-bottom: -5px;
+}
+.container {
+    max-width: 65vw;
+    min-height: 100vh;
+    margin: auto;
+    background-color: rgba(90, 90, 90, 0.95);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.loglogcontainer {
+    width: 65vw;
+        margin: auto;
+        height: 100%;
+        background-color: rgba(90, 90, 90, 0.95);
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+        margin-bottom: 10px;
+        border-radius: 4px
+    }
+.containeruser {
+    max-width: 65vw;
+    min-height: 100vh;
+    margin: auto;
+    background-color: rgba(90, 90, 90, 0.95);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.header {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-bottom: 2px solid #e5e5e5;
+}
+.headerlogoimg:hover {
+    opacity: 0.6;
+}
+.headerlogo {
+    height: 50px;
+    margin: 0px;
+    width: 100%;
+}
+.headerlogoimg {
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.headerlogoleft {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.loginregister {
+    float: right;
+    margin: 0px;
+    padding: 0px 20px 0px 0px;
+    line-height: 5vh;
+}
+.logoutbtn {
+    margin-left: 20px;
+    display: inline-block;
+}
+.logoutbtn2 {
+    border: none;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+    text-shadow: none;
+    color: #000000;
+    background-color: #cecece;
+    box-shadow:inset 0px 0px 0px 2px #000000; 
+}
+.logoutacnhor {
+    color: black;
+    text-decoration: none;
+}
+.logoutcontainer {
+    height: 20vh;
+    max-width: 65vw;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+.logincontainer {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.logh1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+.subh1 {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 5px;
+}
+.subsubh1 {
+    text-align: center;
+    line-height: 12px;
+    font-size: 12px;
+    }
+.loginhere {
+    color: black;
+}
+.logfield {
+    border: none;
+}
+.logun {
+    margin-top: 10px;
+    font-size: 1em;
+    width: 100%;
+    height: 20px;
+}
+.logpw {
+    margin-top: 10px;
+    font-size: 1em;
+    width: 100%;
+    height: 20px;
+}
+.logbtn {
+    border: none;
+    height: 40px;
+    width: 80px;
+    float: right;
+    text-align: center;
+    border-radius: 4px;
+    text-shadow: none;
+    color: #000000;
+    background-color: #cecece;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+}
+.logbtn:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.logoutbtn2:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+/* Navbar START*/
+
+.navbar {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid #c4c4c4;
+    padding-bottom: 6px;
+}
+.navleft {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.navreply {
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    text-shadow: none;
+    color: #000000;
+    background-color: rgba(211, 211, 211, 0.8);
+    box-shadow:inset 0px 0px 0px 2px #000000;
+}
+.navreply:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+.navleft2 {
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+.navforum {
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    text-shadow: none;
+    color: #000000;
+    background-color: rgba(211, 211, 211, 0.8);
+    box-shadow:inset 0px 0px 0px 2px #000000;
+}
+.navforum:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+.navmiddle {
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+.navjobs {
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    text-shadow: none;
+    color: #000000;
+    background-color: rgba(211, 211, 211, 0.8);
+    box-shadow:inset 0px 0px 0px 2px #000000;
+}
+.navjobs:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+.navright {
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+.navactive {
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+.navbutton {
+    cursor: pointer;
+}
+
+/* Navbar END */
+
+.contentleft {
+    float: left;
+    margin:0;
+    padding:0;
+    width: 80%;
+}
+.contentleftuser {
+    float: left;
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+/* Forum & topic styling  START*/
+.topiccollective {
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.0em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    box-shadow:  1px 1px 0px 1px rgba(209, 203, 255, 0.2);
+}
+.topicplaceholder {
+    font-weight: bold;
+    margin-top: -7px;
+}
+.topic {
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.topicheader{
+    width: 42%;
+    text-align: left;
+    padding-left: 2%;
+}
+.topicheaderplaceholder {
+    width: 42%;
+    text-align: center;
+    padding-left: 2%;
+}
+.topiclabel{
+    width: 14%;
+}
+.topiclastuserposts{
+    width: 20%;
+    line-height: 30px;
+    height: 60px;
+}
+.topiclastuserplaceholder {
+    width: 20%;
+}
+.topicposts{
+    width: 8%;
+}
+.topicviews{
+    width: 8%;
+}
+.post1 {
+    height: 60px;
+    width: 100%;
+}
+.postlink {
+    text-decoration: none;
+}
+.avatarlink:hover {
+    opacity: 0.6;
+}
+.topicavatar {
+    width: 6%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topicavatar:hover {
+    opacity: 0.6;
+}
+.topicavatar2:hover {
+    opacity: 1.0;
+}
+.avatarimg {
+    height:100%;
+    margin:0 -100%;
+}
+.topicnoshadow {
+    box-shadow: none;
+}
+.nextpagebtn {
+    display: inline-block;
+    width: 20%;
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.0em;
+    text-transform: capitalize;
+    border-radius: 2px;
+    text-shadow: none;
+    color: #000000;
+    background-color: rgba(211, 211, 211, 0.8);
+    box-shadow:inset 0px 0px 0px 1px #000000;
+    margin-top: 6px;
+    text-decoration: none;
+}
+.nextpagebtn2 {
+    margin-top: 6px;
+    display: inline-block;
+    width: 20%;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.0em;
+    text-transform: capitalize;
+    border-radius: 2px;
+    text-shadow: none;
+    color: #000000;
+    background-color: #cecece;
+    box-shadow:inset 0px 0px 0px 1px #000000;
+    text-decoration: none;
+}
+.nextpagebtn:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+.nextpagebtn2:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+
+/* Forum & topic styling  END*/
+.contentright {
+    height: 120vh;
+    margin:0;
+    padding:0;
+    width: 20%;
+    float: right;
+    margin-top: -10px;
+}
+.rightheader {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    line-height: 60px;
+}
+.googlecalendar {
+    width: 90%; 
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.20);
+}
+.rightheader2 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding:0;
+    line-height: 60px;
+    margin-bottom: -20px;
+}
+.friendpartner {
+    text-align: center;
+    
+}
+.friendpartnerimg {
+    width: 45%;
+    max-width: 120px;
+}
+.friendpartnerimg:hover {
+    opacity: 0.6;
+}
+.twitter-timeline {
+}
+.twitterbox {
+    width: 90%;
+    padding-bottom: 2px;
+    height: 400px;
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.20);
+}
+.footer {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+    border-top: 2px solid #c4c4c4;
+}
+/* Forumpoststyle */
+.forumpost {
+    min-height: 200px;
+    width: 100%;
+    display: inline-block;
+    margin-top: -9px;
+}
+.forumpostall {
+    float: left;
+    min-height: 200px;
+    width: 20%;
+    display: inline-block;
+}
+.forumpostleft{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    margin-top: 9px;
+}
+.forumpostcontent{
+    padding-left: 1%;
+    width: 79%;
+    margin-top: 9px;
+}
+.forumpostavatar {
+    width: 50%;
+    border-radius: 2px;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.20);
+}
+.forumpostavatar2 {
+    width: 50%;
+    border-radius: 2px;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.20);
+    background-color: white;
+}
+.fpchead{
+    display: inline-block;
+    font-weight: bold;
+}
+.fpchead:first-letter{
+    text-transform: capitalize;
+}
+.fpclabel {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+.fpclabel:first-letter{
+    text-transform: capitalize;
+    
+}
+.fpccontent{
+    width: 95%;
+}
+.fpccontent{
+    
+}
+.replycontainer {
+    width: 100%;
+    float: left;
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+}
+.replytext {
+    margin: auto;
+    width: 100%;
+    resize: none;
+    height: 150px;
+}
+.submitbutton {
+    float: right;
+}
+.formstyling {
+    margin: auto;
+    width: 80%;
+    resize: none;
+}
+.replybtn {
+    display: inline-block;
+    width: 10%;
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.0em;
+    text-transform: capitalize;
+    border-radius: 2px;
+    text-shadow: none;
+    color: #000000;
+    background-color: #cecece;
+    box-shadow:inset 0px 0px 0px 1px #000000;
+    margin-top: 6px;
+    text-decoration: none;
+}
+.replybtn:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+.editbtn {
+    width: 10%;
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.0em;
+    text-transform: capitalize;
+    border-radius: 2px;
+    text-shadow: none;
+    color: #000000;
+    background-color: #cecece;
+    box-shadow:inset 0px 0px 0px 1px #000000;
+    margin-top: 6px;
+    text-decoration: none;
+}
+.editbtn:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+.cpostbtn {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    line-height: 25px;
+    font-size: 1.0em;
+    text-transform: capitalize;
+    border-radius: 2px;
+    text-shadow: none;
+    color: #000000;
+    background-color: #cecece;
+    box-shadow:inset 0px 0px 0px 1px #000000;
+    margin-top: 6px;
+    text-decoration: none;
+}
+.cpostbtn:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+/* Styling af create topic/company post */
+.postingcontainer {
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.10);
+    background-color: rgba(211, 211, 211, 0.8);
+    padding-bottom: 20px;
+    border-radius: 4px; 
+}
+.createbtn{
+    border: none;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border-radius: 4px;
+    text-shadow: none;
+    color: #000000;
+    background-color: rgba(211, 211, 211, 0.8);
+    box-shadow:inset 0px 0px 0px 2px #000000;
+}
+.createbtn:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.createbtncancel {
+    margin-top: 10px;
+}
+.createtopicmsg {
+    margin-top: -5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.postall {
+    width: 60%;
+    font-size: 1.2em;
+    font-family: Poppins, sans-serif;
+}
+.posttopic {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.slctcat {
+    line-height: 0px;
+    margin-top: -5px;
+}
+.postlabel {
+    margin-bottom: 20px;
+}
+.posttextarea {
+    resize: none;
+    height: 400px;
+}
+/* Styling af jobs */
+.comppagestyle {
+    text-align: center;
+}
+.compweblink {
+    color: black;
+}
+.logobox {
+    padding-top: 20px;
+    text-align: center;
+}
+.jobscontainer {
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+}
+.viewregpost {
+    margin-left: 68.8%;
+    background-color: rgba(211, 211, 211, 0.8);
+    width: 12%;
+    height: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.10);
+    padding-bottom: 1vh;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-size: 14px;
+}
+.viewregpostfont {
+    color: #000000;
+    text-decoration: none;
+}
+.viewregpost:hover {
+    background-color: white;
+}
+.viewregpostfont:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.viewregpost2 {
+    line-height: 42px;
+}
+.upperpostings {
+    float: right;
+    margin-top: 5vh;
+    height: 150px;
+    width: 100%;
+}
+.lowercompany {
+    float: right;
+    margin-top: 5vh;
+    height: 150px;
+    width: 100%;
+}
+.jobpostingsdiv {
+    text-align: center;
+    border-radius: 4px;
+    line-height: 190px;
+    text-shadow: none;
+    color: #000000;
+    background-color: #e2e2e2;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    width: 190px;
+    height: 190px;
+    margin: auto;
+}
+.jobpostingsdiv:hover {
+    transition-duration: 0.15s;
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+.nodeco {
+    text-decoration: none;
+}
+.companiesdiv {
+    float: left;
+    height: 150px;
+    width: 50%;
+}
+.linkbox {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 190px;
+    text-shadow: none;
+    color: #000000;
+    background-color: #e2e2e2;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+}
+.linkbox2 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 100px;;;
+    text-shadow: none;
+    color: #000000;
+    background-color: #e2e2e2;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+}
+.createcompdiv {
+    float: right;
+    height: 150px;
+    width: 50%;
+}
+.phonebreak {
+        visibility: hidden;
+    }
+.btnplace {
+    background-image: url(images/jobview.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btnplace:hover {
+    opacity: 0.6;
+}
+/* Job Styling */
+.compcreatecontainer {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.comptext {
+    font-size: 1.2em;
+    width: 100%;
+    height: 40px;
+}
+.compnumb {
+    font-size: 1.2em;
+    height: 40px;
+    width: 100%;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.comptextarea {
+    font-size: 1.2em;
+    height: 200px;
+    width: 100%;
+    resize: none;
+}
+/* Companies.php style */
+.complogo {
+    width: 6%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+}
+.complogoplaceholder {
+    background-color: none;
+    width: 6%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.complogo:hover {
+    opacity: 0.6;
+}
+.compcollective {
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.0em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    box-shadow:  1px 1px 0px 1px rgba(209, 203, 255, 0.2);
+}
+.compscollective {
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.0em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    box-shadow: 1px 1px 0px 1px rgba(209, 203, 255, 0.2);
+}
+.compname {
+    width: 42%;
+    text-align: left;
+    padding-left: 2%;
+}
+.compname2 {
+    width: 57%;
+    text-align: left;
+    padding-left: 2%;
+}
+.compnameplaceholder {
+    width: 42%;
+    text-align: center;
+    padding-left: 2%;
+}
+.compname2placeholder {
+    width: 57%;
+    text-align: center;
+    padding-left: 2%;
+}
+.compcvr {
+    width: 25%;  
+}
+.compviews {
+    width: 10%;
+}
+.compcreatedplaceholder {
+    height: 60px;
+    line-height: 60px;
+}
+.complengthcreated {
+    height: 50px;
+    width: 25%;
+}
+.compcreated{
+    height: 60px;
+    line-height: 30px;
+}
+.compplaceholder {
+    margin-top: -7px;
+}
+.compveri {
+    width: 25%;
+}
+.compsname {
+    width: 42%;
+    text-align: left;
+    padding-left: 2%;
+}
+.compsname2 {
+    width: 57%;
+    text-align: left;
+    padding-left: 2%;
+}
+.compsnameplaceholder {
+    width: 48%;
+    text-align: center;
+    padding-left: 2%;
+}
+.compsname2placeholder {
+    width: 57%;
+    text-align: center;
+    padding-left: 2%;
+}
+.compscvr {
+    width: 25%;  
+}
+.compsviews {
+    width: 10%;
+}
+.compscreatedplaceholder {
+    height: 60px;
+    line-height: 60px;
+}
+.compslengthcreated {
+    height: 50px;
+    width: 25%;
+}
+.compscreated{
+    height: 60px;
+    line-height: 30px;
+}
+.compsplaceholder {
+    margin-top: -7px;
+}
+.compsveri {
+    width: 25%;
+}
+/* Company Page */
+.companypagecontainer {
+    margin-left: 5%;
+    width: 90%;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.10);
+    background-color: rgba(211, 211, 211, 0.8);
+    padding-bottom: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.comexpl {
+    font-weight: bold;
+    line-height: 10px;
+}
+.Pending {
+    color: red;
+}
+.Verified {
+    color: green;
+}
+.comexplbio {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+.compexplimg {
+    max-height: 300px;
+    max-width: 200px;
+    border-radius: 4px;
+}
+.compexplpadbot {
+    padding-bottom: 20px;
+}
+.compexplpadtop {
+    padding-top: 20px;
+}
+/* userpage styling */
+.userpagecontainer {
+    width: 40%;
+    margin: auto;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.10);
+    background-color: rgba(211, 211, 211, 0.8);
+    padding-bottom: 20px;
+    border-radius: 4px;
+    color: #000000;
+}
+.userpageavatar {
+    max-height: 240px;
+    width: 120px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.avatarbox {
+    text-align: center;
+}
+.userpagename {
+    display: inline-block;
+}
+.userpageposts {
+    display: inline-block;
+}
+.userpageage {
+    display: inline-block;
+}
+.usertitle {
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    width: 30%;
+}
+.userank {
+    line-height: 0px;
+}
+.fontecho {
+    width: 30%;
+    text-align: center;
+}
+.uploadcontainer {
+    text-align: center;
+}
+.uploadavatarinput {
+    font-weight: bold;
+}
+/* Styling Responsive */
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 12px;
+    }
+    .container {
+        max-width: 100vw;
+    }
+    .containeruser {
+        max-width: 100vw;
+    }
+    .topiccollective {
+        line-height: 60px;
+        height: 60px;
+    }
+    .topiclastuserposts {
+        line-height: 30px;
+    }
+    .viewregpost {
+    margin: auto;
+    font-size: 12px;
+    width: 80px;
+    line-height: 15px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        font-size: 12px;
+        overflow-x: hidden;
+    }
+    .container {
+        max-width: 100vw;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .cpostbtn {
+        line-height: 50px;
+    }
+    .topiccollective {
+    float: left;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    box-shadow:  1px 1px 0px 1px rgba(209, 203, 255, 0.2);
+}
+.topicplaceholder {
+    font-weight: bold;
+}
+    .topicavatar {
+        width: 0%;
+        height: 0%;
+        visibility: hidden;
+    }
+.topic {
+    height: 3vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.topicheader{
+    width: 30%;
+    text-align: left;
+    padding-left: 2%;
+}
+.topicheaderplaceholder {
+    width: 30%;
+    text-align: center;
+}
+.topiclabel{
+    width: 18%;
+}
+.topiclastuserposts{
+    width: 22%;
+    line-height: 30px;
+    height: 60px;
+}
+.topiclastuserplaceholder {
+    width: 22%;
+}
+.topicposts{
+    width: 14%;
+}
+.topicviews{
+    width: 14%;
+}
+.post1 {
+    height: 60px;
+    width: 100%;
+}
+.postlink {
+    text-decoration: none;
+}
+.avatarimg {
+    visibility: hidden;
+    width: 0px;
+}
+.topicnoshadow {
+    box-shadow: none;
+}
+.topicavatar {
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+}
+    .contentright {
+        margin: auto;
+        width: 100%;
+        margin: auto;
+    }
+    .contentleft {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .friendpartner {
+        margin: auto;
+        width: 60%;
+    }
+    .rightheader2 {
+        margin: auto;
+        width: 80%;
+    }
+    .twitterbox {
+    padding-bottom: 10px;
+    height: 200px;
+    }
+    .googlecalendar {
+    height: 200px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.20);
+    }
+    .viewregpost {
+    margin: auto;
+    font-size: 12px;
+    width: 80px;
+    line-height: 15px;
+    }
+.navbar {
+    height: 50px;
+    padding-bottom: 6px;
+}
+.navleft {
+    width: 10%;
+}
+.navreply {
+    width: 20%;
+    line-height: 50px;
+}
+.navleft2 {
+    width: 30%;
+}
+.navforum {
+    width: 20%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    text-shadow: none;
+    color: #000000;
+    background-color: rgba(211, 211, 211, 0.8);
+    box-shadow:inset 0px 0px 0px 2px #000000;
+}
+.navmiddle {
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+.navjobs {
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    text-shadow: none;
+    color: #000000;
+    background-color: rgba(211, 211, 211, 0.8);
+    box-shadow:inset 0px 0px 0px 2px #000000;
+}
+.navright {
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.navactive {
+    background-color: #ffffff;
+    text-shadow: none;
+    color: #000000;
+    box-shadow:inset 0px 0px 0px 2px #000000;
+    background-color: #ffffff;
+}
+    .loglogcontainer {
+        height: 100%;
+        width: 100vw;
+        background-color: rgba(90, 90, 90, 0.95);
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+        margin-bottom: 10px;
+        border-radius: 4px
+    }
+    .logoutcontainer{
+        width: 90%;
+        height: 60vh;
+    }
+    .logincontainer{
+        width: 90%;
+        height: 70vh;
+    }
+    .logun {
+    margin: 40px auto auto auto;
+    margin-top: 40px;
+    font-size: 1.2em;
+    width: 100%;
+    height: 40px;
+    }
+    .logpw {
+    margin: 40px auto auto auto;
+    font-size: 1.2em;
+    width: 100%;
+    height: 40px;
+}
+    .headerlogoimg {
+        min-height: 50px;
+        width: 310px; 
+    }
+    .headerlogo {
+        height: 50px
+    }
+    .loginregister {
+        height: 50px;
+}
+    .formstyling {
+        width: 100%;
+    }
+    .postall {
+        width: 95%;
+    }
+    .replybtn {
+        width: 50px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .complogo {
+        visibility: hidden;
+        width: 0%;
+    }
+    .complogoplaceholder {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .compscollective {
+        float: left;
+        text-align: center;
+        line-height: 60px;
+        font-size: 1.0em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-transform: capitalize;
+        box-shadow: 1px 1px 0px 1px rgba(209, 203, 255, 0.2);
+        margin-left: 0px;
+        padding-left: 0px;
+        line-height: 60px;
+    }
+    .compslogoplaceholder{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .compsnameplaceholder{
+        width: 50%;
+    }
+    .compscvr{
+        width: 20%;
+    }
+    .compsveri{
+        width: 30%;
+    }
+    .compsname{
+        width: 49%;
+        text-align: left;
+        padding-left: 1%;
+    }
+    .nextpagebtn {
+        height: 40px;
+        line-height: 40px;
+    }
+    .hiddenresponsive {
+        visibility: hidden;
+    }
+    .companypagecontainer {
+        margin-left: 2.5%;
+        width: 95%;
+    }
+    .compcreatecontainer {
+        width: 100%;
+    }
+    .subh1 {
+        line-height: 20px;
+        text-align: center;
+    }
+    .compcollective {
+        margin-left: 0px;
+        padding-left: 0px;
+        line-height: 60px;
+    }
+    .complengthcreated {
+        line-height: 30px;
+    }
+    .cpostbtn {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .logbtn {
+        height: 40px;
+        width: 150px;
+    }
+    .compviews {
+    border: none;
+    width: 33vw;
+    }
+    .compname2placeholder {
+    border: none;
+    padding: 0px;
+    width: 32vw;
+    padding-left: 1vw;
+    }
+    .compname2 {
+    border: none;
+    padding: 0px;
+    width: 32vw;
+    padding-left: 1vw;
+    }
+    .compcreatedplaceholder {
+    border: none;
+    width: 33vw;   
+    }
+    .compcreated {
+    border: none;
+    width: 33vw;    
+    }
+    .compveri {
+        widows: 33vw;
+    }
+    .compnameplaceholder {
+    border: none;
+    padding: 0px;
+    width: 32vw;
+    padding-left: 1vw;
+    }
+    .compname {
+    border: none;
+    padding: 0px;
+    width: 32vw;
+    padding-left: 1vw;
+    }
+    .compcvr {
+        widows: 33vw;
+    }
+    .userpagecontainer {
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.10);
+    background-color: rgba(211, 211, 211, 0.8);
+    padding-bottom: 20px;
+    border-radius: 4px;
+    color: #000000;
+    }
+}
+@media only screen and (orientation: landscape) {
+    .contentright {
+     margin-bottom: 400px;
+    }
+    .containeruser {
+        height: 500px;
+    }
+}
